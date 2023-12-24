@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
-import { Pagination } from 'swiper';
+import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './testimonials.css';
+
 
 const Testimonials = () => {
   const testimonials = [
