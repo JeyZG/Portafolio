@@ -17,9 +17,9 @@ const CTA = () => {
             <a href={CV} download className="btn">
                 Descargar CV
             </a>
-            {/* <button onClick={saveCV} className="btn btn-primary">
+            <button onClick={saveCV} className="btn btn-primary">
                 Descargar CV
-            </button> */}
+            </button>
             {/* <a
                 href="../../assets/JeysonZunigaCV.pdf"
                 className="btn btn-primary"
