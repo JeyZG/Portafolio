@@ -14,7 +14,7 @@ const saveCV = () => {
 const CTA = () => {
     return (
         <div className="cta">
-            <a href={CV} download className="btn">
+            <a href={process.env.REACT_APP_CLIENT_URL + CV} download className="btn" target="_blank" rel="noopener noreferrer">
                 Descargar CV
             </a>
             <button onClick={saveCV} className="btn btn-primary">
