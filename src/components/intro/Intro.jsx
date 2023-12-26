@@ -3,13 +3,13 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from "../../assets/Me.webp";
+import img from "../../assets/Me.jpg";
 
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5>Enterate</h5>
+      <h2>Acerca de mi</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -20,26 +20,26 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>5+ year</small>
+              <h5>Experiencia</h5>
+              <small>+5 años / 1 año certificable</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>32+ Completed Projects</small>
+              <h5>Proyectos personales</h5>
+              <small>3 proyectos realizados</small>
             </article>
           </div>
           <p>
-            Able Full-stack Developer with over 6 years of expertise in building Web & Mobile applications development.
+          Durante muchos años he desarrollado diversos proyectos que me han permitido solucionar problemas en el área laboral, comercial y educativa.
             <br />
-            My goal is to deliver efficient and effective solutions, and I adhere to the following principles in my work:
+            - Me enfoco en brindar soluciones que aborden las necesidades del cliente y resuelvan sus problemas.
             <br />
-            - I focus on providing solutions that address the client's needs and solve their problems.
+            - Me empeño en mantener a mis clientes satisfechos durante todo el proceso de desarrollo.
             <br />
-            - I believe in keeping my clients engaged throughout the development process, ensuring them.
+            - Siempre busco la forma de generar soluciones con una gran gestión de errores para que el uso del software/aplicacion sea totalmente agradable.
           </p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Hablemos...
           </a>
         </div>
       </div>

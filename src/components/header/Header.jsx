@@ -7,12 +7,12 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Christian Montero</h1>
-        <h5 className="text-light">Full-Stack Developer</h5>
+        <h5>Hola, yo soy</h5>
+        <h1>Jeyson Zuñiga</h1>
+        <h5 className="text-light">Desarrollador Web Full-Stack</h5>
         <CTA />
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          Sigue bajando...
         </a>
         <HeaderSocials />
       </div>

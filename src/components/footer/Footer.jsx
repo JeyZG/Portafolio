@@ -5,30 +5,30 @@ const Footer = () => {
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        Christian Montero
+        Jeyson Zuñiga
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">Inicio</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">Acerca de mi</a>
         </li>
         <li>
-          <a href="#experience">Skills</a>
+          <a href="#experience">Habilidades</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Portafolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Testimonios</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contacto</a>
         </li>
       </ul>
       <div className="footer__copyright">
-        <small>&copy; ET 2022. All rights reserved.</small>
+        <small>&copy; JZG Devs 2023. Todos los derechos reservados.</small>
       </div>
     </footer>
   );
