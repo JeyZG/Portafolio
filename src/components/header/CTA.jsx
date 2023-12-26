@@ -1,25 +1,25 @@
 import React from "react";
-import CV from "../../assets/JeysonZunigaCV.pdf";
-import fileSaver from "file-saver";
+import CV from "../../../src/assets/JeysonZunigaCV.pdf";
+// import fileSaver from "file-saver";
 
 //function for saving file
-const saveCV = () => {
-    console.log(process.env.REACT_APP_CLIENT_URL);
-    fileSaver.saveAs(
-        process.env.REACT_APP_CLIENT_URL + CV,
-        "JeysonZunigaCV.pdf"
-    );
-};
+// const saveCV = () => {
+//     // console.log(process.env.REACT_APP_CLIENT_URL);
+//     fileSaver.saveAs(
+//         CV,
+//         "JeysonZunigaCV.pdf"
+//     );
+// };
 
 const CTA = () => {
     return (
         <div className="cta">
-            <a href={process.env.REACT_APP_CLIENT_URL + CV} download className="btn" target="_blank" rel="noopener noreferrer">
+            <a href={CV} download className="btn" target="_blank" rel="noopener noreferrer">
                 Descargar CV
             </a>
-            <button onClick={saveCV} className="btn btn-primary">
+            {/* <button onClick={saveCV} className="btn btn-primary">
                 Descargar CV
-            </button>
+            </button> */}
             {/* <a
                 href="../../assets/JeysonZunigaCV.pdf"
                 className="btn btn-primary"
