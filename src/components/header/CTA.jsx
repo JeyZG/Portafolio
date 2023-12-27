@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../../src/assets/JeysonZunigaCV.pdf";
+// import CV from "../../../src/assets/JeysonZunigaCV.pdf";
 // import fileSaver from "file-saver";
 
 //function for saving file
@@ -14,7 +14,7 @@ import CV from "../../../src/assets/JeysonZunigaCV.pdf";
 const CTA = () => {
     return (
         <div className="cta">
-            <a href={CV} download className="btn" target="_blank" rel="noopener noreferrer">
+            <a href={process.env.PUBLIC_URL+ '/docs/JeysonZunigaCV.pdf'} download className="btn" target="_blank" rel="noopener noreferrer">
                 Descargar CV
             </a>
             {/* <button onClick={saveCV} className="btn btn-primary">

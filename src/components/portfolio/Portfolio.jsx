@@ -2,7 +2,7 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/shopex.jpg";
 import IMG2 from "../../assets/reservas.jpg";
-import IMG3 from "../../assets/tasker.webp";
+import IMG3 from "../../assets/tasker.jpg";
 // import IMG4 from "../../assets/Raise.png";
 // import IMG5 from "../../assets/Potsave.png";
 // import IMG6 from "../../assets/Health.png";
