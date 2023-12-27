@@ -1,5 +1,5 @@
 import React from "react";
-// import CV from "../../../src/assets/JeysonZunigaCV.pdf";
+import CV from "../../../src/assets/JeysonZunigaCV.pdf";
 // import fileSaver from "file-saver";
 
 //function for saving file
@@ -11,12 +11,39 @@ import React from "react";
 //     );
 // };
 
+const onButtonClick = () => {
+    const pdfUrl = process.env.PUBLIC_URL + '/docs/JeysonZunigaCV.pdf';
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "JeysonZunigaCV.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+const onButtonClick2 = () => {
+    const pdfUrl = CV;
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "JeysonZunigaCV.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
 const CTA = () => {
     return (
         <div className="cta">
-            <a href={process.env.PUBLIC_URL+ '/docs/JeysonZunigaCV.pdf'} download className="btn" target="_blank" rel="noopener noreferrer">
+            <button onClick={onButtonClick} className="btn btn-primary">
                 Descargar CV
-            </a>
+            </button>
+
+            <button onClick={onButtonClick2} className="btn">
+                Descargar CV
+            </button>
+
+            {/* <a href={process.env.PUBLIC_URL + '/docs/JeysonZunigaCV.pdf'} download className="btn" target="_blank" rel="noreferrer">
+                Descargar CV
+            </a> */}
             {/* <button onClick={saveCV} className="btn btn-primary">
                 Descargar CV
             </button> */}
